@@ -27,12 +27,7 @@ Pod::Spec.new do |s|
     s.author           = { 'liujianping' => 'gitdig.com@gmail.com' }
     s.source           = { :git => 'https://github.com/mbox-dev/SwiftUIRouter.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  
-    s.ios.deployment_target = '14.0'
-    s.macOS.deployment_target = '11.0'
-    s.tvOS.deployment_target = '14.0'
-    s.watchOS.deployment_target = '7.0'
-    
+
     s.source_files = 'Sources/**/*' 
   end
   
