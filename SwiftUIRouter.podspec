@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SwiftUIRouter'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'SwiftUI Router'
   
   # This description is used to generate tags and improve search results.
@@ -27,6 +27,9 @@ Pod::Spec.new do |s|
     s.author           = { 'liujianping' => 'gitdig.com@gmail.com' }
     s.source           = { :git => 'https://github.com/mbox-dev/SwiftUIRouter.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+    spec.ios.deployment_target  = '14.0'
+    spec.osx.deployment_target  = '11.0'
 
     s.source_files = 'Sources/**/*' 
   end
